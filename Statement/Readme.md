@@ -41,11 +41,43 @@
 
 ---
 
+## List
+
+- unordered list
+
 ```latex
-    $\cdots$
+\begin{itemize}
+    \item item1
+    \item item2
+\end{itemize}
 ```
 
-|            | |
-|------------|-|
-| `$\cdots$` | |
-|            | |
+Result:
+
+- item1
+- item2
+
+- ordered list
+
+```latex
+\begin{enumerate}
+    \item item1
+    \item item2
+\end{enumerate}
+```
+
+Result:
+
+1. item1
+2. item2
+
+---
+
+## HyperLinks
+
+```latex
+Follow me, \href{https://github.com/3bbaas}{3bbaas}.
+``` 
+
+Result:
+Follow me, [3bbaas](https://github.com/3bbaas).
