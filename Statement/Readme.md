@@ -9,7 +9,7 @@
 
 ## Math Operators
 
-| operator       | LaTeX            |                |
+| operator       | LaTeX            |     result     |
 |----------------|------------------|:--------------:|
 | Addition       | `$a+b$`          |     $a+b$      |
 | Subtraction    | `$a-b$`          |     $a-b$      |
