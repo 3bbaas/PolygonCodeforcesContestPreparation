@@ -4,4 +4,4 @@
 
 
 ## Problem Creation process
-![](./assets/pre1.svg)
+![](./assets/pre1.png)
