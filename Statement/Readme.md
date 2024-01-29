@@ -9,7 +9,7 @@
 
 ## Math
 
-| operator       | LaTeX                |       result       |
+| Description    | LaTeX                |       Result       |
 |----------------|----------------------|:------------------:|
 | Addition       | `$a+b$`              |       $a+b$        |
 | Subtraction    | `$a-b$`              |       $a-b$        |
@@ -20,6 +20,12 @@
 | Dots           | `$\cdots$`           |      $\cdots$      |
 | Element of     | `$\in$`              |       $\in$        |
 | Dash           | `---`                |         -          |
+| gcd            | `$\gcd$`             |       $\gcd$       |
+| mod            | `$\mod$`             |       $\mod$       |
+| less than      | `$\le$`              |       $\le$        |
+| greater than   | `$\ge$`              |       $\ge$        |
+| subscript      | `$a_i$`              |       $a_i$        |
+| superscript    | `$a^b$`              |       $a^b$        |
 
 ```latex
     $\cdots$
