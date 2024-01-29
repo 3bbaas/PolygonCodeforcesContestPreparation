@@ -21,7 +21,7 @@
 | Element of     | `$\in$`              |       $\in$        |
 | Dash           | `---`                |         -          |
 | gcd            | `$\gcd$`             |       $\gcd$       |
-| mod            | `$\mod$`             |       $\mod$       |
+| mod            | `$\mod{2}$`          |     $\mod{2}$      |
 | less than      | `$\le$`              |       $\le$        |
 | greater than   | `$\ge$`              |       $\ge$        |
 | subscript      | `$a_i$`              |       $a_i$        |
