@@ -18,8 +18,8 @@
 | Sqrt           | `$\sqrt{a}$`         |     $\sqrt{a}$     |
 | Summation      | `$$\sum_{a=0}^{b}$$` | $$\sum_{a=0}^{b}$$ |
 | Dots           | `$\cdots$`           |      $\cdots$      |
-| UnderScore     | `$\_$`               |        $\_$        |
-| Dash           | `$\in$`              |       $\in$        |
+| Element of     | `$\in$`              |       $\in$        |
+| Dash           | `---`                |         -          |
 
 ```latex
     $\cdots$
