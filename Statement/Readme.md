@@ -16,6 +16,7 @@
 | Multiplication | `$a \times b$`   |  $a \times b$  |
 | Division       | `$\dfrac{a}{b}$` | $\dfrac{a}{b}$ |
 | Sqrt           | `$\sqrt{a}$`     |   $\sqrt{a}$   |
+| Sqrt           | `$\sqrt{a}$`     | \sum_{k=1}^n$  |
 
 ```latex
     $\cdots$
