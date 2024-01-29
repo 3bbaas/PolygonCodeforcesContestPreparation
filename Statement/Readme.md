@@ -1,5 +1,9 @@
 # Quick Guide for ```LaTeX```
 
+> **Check** Codeforces Tex manual: [Link](https://polygon.codeforces.com/docs/statements-tex-manual)
+
+---
+
 ## Equations
 
 |  type   |  LaTeX   |
