@@ -82,3 +82,18 @@ Follow me, \href{https://github.com/3bbaas}{3bbaas}.
 Result:
 
 Follow me, [3bbaas](https://github.com/3bbaas).
+
+## Add images
+
+```latex
+\begin{center}
+  \includegraphics[scale=1.5]{cyc.png} \\
+  \small{Centered scaled image.}
+\end{center}
+```
+$$
+\begin{center}
+\includegraphics[scale=1.5]{cyc.png} \\
+\small{Centered scaled image.}
+\end{center}
+$$
