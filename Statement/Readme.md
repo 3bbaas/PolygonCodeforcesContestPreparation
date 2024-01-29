@@ -9,13 +9,13 @@
 
 ## Math Operators
 
-| operator       | LaTeX            |            |
-|----------------|------------------|------------|
-| Addition       | `$a+b$`          | `a+b`      |
-| Subtraction    | `$a-b$`          | `a-b`      |
-| Multiplication | `$a \times b$`   | `a*b`      |
-| Division       | `$\dfrac{a}{b}$` | `a/b`      |
-| Sqrt           | `$\sqrt{a}$`     | $\sqrt{a}$ |
+| operator       | LaTeX            |                |
+|----------------|------------------|----------------|
+| Addition       | `$a+b$`          | $a+b$          |
+| Subtraction    | `$a-b$`          | $a-b$          |
+| Multiplication | `$a \times b$`   | $a \times b$   |
+| Division       | `$\dfrac{a}{b}$` | $\dfrac{a}{b}$ |
+| Sqrt           | `$\sqrt{a}$`     | $\sqrt{a}$     |
 
 ```latex
     $\cdots$
