@@ -24,8 +24,9 @@ using namespace std;
 
 void s0lve() {
     Gen gen;
-
-
+//    gen.get<ll>(1, 1e5);
+//    auto v = gen.getArr(11);
+//    for (auto itr: v) cout << itr << ' ';
 
 
     cout << '\n';

@@ -36,29 +36,28 @@ public:
         int idx = 0;
         for (auto &i: s) vec[idx++] = i;
         if (srt == 1) { sort(vec.begin(), vec.end(), greater<>()); }
-//        else if (srt == 2) { vec }
-        else shuffle(vec.begin(), vec.end(), rng);
+        else if (srt == -1) shuffle(vec.begin(), vec.end(), rng);
         return vec;
     }
 
-    char genChar(bool status = false) {
+    char getChar(bool CASE = false) { // Not Sure ....
         char a = 'a', b = 'z';
-        if (status == 1) { a = 'A', b = 'Z'; }
+        if (CASE) { a = 'A', b = 'Z'; }
         ui<char> ret(a, b);
         return ret(rng);
     }
 
-    string getString(int size, int upr = 0) {
+    string getString(int size, int upr = 0) { // Not Sure ....
         string ret;
-        if (upr) for (int i = 0; i < size; ++i) { ret += genChar(true); }
-        else for (int i = 0; i < size; ++i) { ret += genChar(); }
+        if (upr) for (int i = 0; i < size; ++i) { ret += getChar(true); }
+        else for (int i = 0; i < size; ++i) { ret += getChar(); }
         return ret;
     }
 
-    string getBinary(int size, bool dt = false) {
+    string getBinary(int size, bool DT = false) {
         string ret;
         while (size--)ret += to_string(get(0, 1));
-        if (dt) return stoll(ret), ret;
+        if (DT) return stoll(ret), ret;
         return ret;
     }
 
