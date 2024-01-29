@@ -87,13 +87,7 @@ Follow me, [3bbaas](https://github.com/3bbaas).
 
 ```latex
 \begin{center}
-  \includegraphics[scale=1.5]{cyc.png} \\
-  \small{Centered scaled image.}
+    \includegraphics[scale=1.5]{img.png} \\
+    \small{caption}
 \end{center}
 ```
-$$
-\begin{center}
-\includegraphics[scale=1.5]{cyc.png} \\
-\small{Centered scaled image.}
-\end{center}
-$$
