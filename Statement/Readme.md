@@ -83,6 +83,8 @@ Result:
 
 Follow me, [3bbaas](https://github.com/3bbaas).
 
+---
+
 ## Add images
 
 ```latex
@@ -91,3 +93,5 @@ Follow me, [3bbaas](https://github.com/3bbaas).
     \small{caption}
 \end{center}
 ```
+
+---
