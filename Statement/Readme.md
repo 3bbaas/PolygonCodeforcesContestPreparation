@@ -31,6 +31,17 @@
 
 ---
 
+## Text format
+
+| Description    | LaTeX             |      Result       |
+|----------------|-------------------|:-----------------:|
+| Bold           | `\textbf{ Bold }` | $\textbf{ Lite }$ |
+| Subtraction    | `$a-b$`           |       $a-b$       |
+| Multiplication | `$a \times b$`    |   $a \times b$    |
+| Division       | `$\dfrac{a}{b}$`  |  $\dfrac{a}{b}$   |
+
+---
+
 ```latex
     $\cdots$
 ```
