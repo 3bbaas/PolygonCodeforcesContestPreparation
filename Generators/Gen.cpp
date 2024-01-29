@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include "testlib.h"
+#include "GeneratorClass.cpp"
 
 using namespace std;
 
@@ -22,6 +23,7 @@ using namespace std;
 //#define MultipleTestCase
 
 void s0lve() {
+    Gen gen;
 
 
 
