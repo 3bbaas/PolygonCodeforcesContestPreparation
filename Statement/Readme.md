@@ -2,10 +2,12 @@
 
 ## Equations
 
-| type    | LaTeX    |
-|---------|----------|
-| inline  | `$eq$`   |
+|  type   |  LaTeX   |
+|:-------:|:--------:|
+| inline  |  `$eq$`  |
 | display | `$$eq$$` |
+
+---
 
 ## Math
 
@@ -26,6 +28,8 @@
 | greater than   | `$\ge$`              |       $\ge$        |
 | subscript      | `$a_i$`              |       $a_i$        |
 | superscript    | `$a^b$`              |       $a^b$        |
+
+---
 
 ```latex
     $\cdots$
