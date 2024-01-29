@@ -23,30 +23,7 @@ using namespace std;
 #define TestCasesCount 100'00
 
 void VALIDATOR() {
-    int min, max, _size;
-    string varName, pattern;
-    inf.readChar();
-    inf.readChar('q');
-    int valueOfInt = inf.readInt(min, max, varName);
-    inf.readLong((ll) min, (ll) max, varName);
-    inf.readDouble(min, max, varName);
-    inf.readWord(pattern, varName);
-    inf.readString(pattern, varName);
-    inf.readStrictDouble((double) min, (double) max, (int) min, (int) max, varName);
 
-    inf.readEoln();
-    inf.readEof();
-    inf.readSpace();
-
-    auto vectorOfInts = inf.readInts(_size, min, max, varName, 0);
-    inf.readWords(_size, pattern, varName, 0);
-    inf.readLongs(_size, (ll) min, (ll) max, varName, 0);
-    inf.readDoubles(_size, min, max, varName, 0);
-    inf.readStrings(_size, pattern, varName);
-    inf.readStrictDoubles(_size, (double) min, (double) max, (int) min, (int) max, varName, 0);
-
-    ensure(valueOfInt >= 3);
-    ensuref(valueOfInt >= 3, "x isn't more than or equal 3");
 
 } // inf.readEoln();
 
