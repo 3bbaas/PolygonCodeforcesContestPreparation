@@ -1,10 +1,3 @@
-#ifdef ONLINE_JUDGE
-#pragma GCC optimize("O3")
-#pragma GCC optimize("Ofast,unroll-loops")
-#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
-#pragma GCC target("avx,avx2,fma")
-#endif
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -36,6 +29,8 @@ using namespace std;
 
 void _3bbas_();
 
+#define Local
+
 /* +:-:+:-:+:-:+:-:+:-:+:-:+:-[ Solution ]:-:+:-:+:-:+:-:+:-:+:-:+:-+:- */
 
 void s0lve() {
@@ -54,7 +49,7 @@ signed main() {
 }
 
 void _3bbas_() {
-#ifndef ONLINE_JUDGE
+#ifdef Local
     freopen(".in", "r", stdin);
     freopen(".out", "w", stdout);
 #endif

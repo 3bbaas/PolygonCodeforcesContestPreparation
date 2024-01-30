@@ -4,8 +4,8 @@
 
 using namespace std;
 
-mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 using ll = long long;
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 template<typename T>
 using ui = uniform_int_distribution<T>;
 

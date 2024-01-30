@@ -22,7 +22,12 @@ using namespace std;
 #define MultipleTestCases
 #define TestCasesCount 100'00
 
+#define regx1 "[a-zA-Z]{1, 1000}"
+#define regx2 "[a-z]{1, 1000}"
+#define regx3 "[A-Z]{1, 1000}"
+
 void VALIDATOR() {
+
 
 
 } // inf.readEoln();
